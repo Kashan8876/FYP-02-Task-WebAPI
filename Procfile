@@ -1,2 +1,2 @@
 echo PORT $PORT
-web: python run --server.port $PORT WebAPI.py
+web: python --server.port $PORT WebAPI.py
