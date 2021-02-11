@@ -1,2 +1,1 @@
-echo PORT $PORT
-web: python WebAPI.py
+web:gunicorn WebAPI:app
