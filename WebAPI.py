@@ -38,7 +38,7 @@ FYP_Task = [{
 
 
 
-@app.route('/post',methods = ["GET","POST"])
+@app.route('/',methods = ["GET","POST"])
 def get_book():
     return jsonify ({"FYP_Task" : FYP_Task})
 
