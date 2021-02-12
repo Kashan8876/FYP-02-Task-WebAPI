@@ -40,7 +40,7 @@ FYP_Task = [{
 
 @app.route('/',methods = ["GET","POST"])
 def get_book():
-    return jsonify ({"FYP_Task" : FYP_Task})
+    return jsonify ({FYP_Task})
 
 if __name__ == "__main__":
     
